@@ -93,7 +93,7 @@ a{
 }
 
 .main-wrapper{
-    margin: 0px 300px 20px 300px;
+    margin: 0px 20% 20px 20%;
 }
 
 .post{
@@ -103,7 +103,7 @@ a{
   margin: 20px 0px 0px 0px;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .main-wrapper{
       margin: 0px 10px 0px 10px;
       width: 100%;
@@ -121,7 +121,8 @@ a{
 
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (min-device-width : 1080px) and (max-device-width : 1920px) and (min-resolution: 401dpi) and (device-aspect-ratio:16/9){
     .main-wrapper{
       margin: 0px 10px 0px 10px;
       width: 100%;
