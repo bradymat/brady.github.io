@@ -111,13 +111,14 @@ a{
       width: 100%;
     }
     #header {
-      padding: 10px 0px 120px 10px;
+      padding: 10px 0px 250px 10px;
       background: #2c3e50;
   }
   .block{
-    height: 130px;
+    height: 260px;
   }
   #button {
+    margin: 0px 5px 30px 5px;
     width:100%;
     position:relative;
     min-height:100%;
@@ -127,8 +128,11 @@ a{
     color: #2c3e50;
     margin-left: 25px;
   }
-
+  .headerlink {
+    font-size: 48px;
+  }
   .currentlink {
+    font-size: 48px;
     color: #ecf0f1;
   }
 
@@ -154,13 +158,14 @@ a{
       width: 100%;
     }
     #header {
-      padding: 10px 0px 120px 10px;
+      padding: 10px 0px 250px 10px;
       background: #2c3e50;
   }
   .block{
-    height: 130px;
+    height: 260px;
   }
   #button {
+    margin: 0px 5px 30px 5px;
     width:100%;
     position:relative;
     min-height:100%;
@@ -170,8 +175,11 @@ a{
     color: #2c3e50;
     margin-left: 25px;
   }
-
+  .headerlink {
+    font-size: 48px;
+  }
   .currentlink {
+    font-size: 48px;
     color: #ecf0f1;
   }
 
