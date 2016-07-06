@@ -15,7 +15,7 @@ body {
   padding: 10px 0px 50px 80px;
   position: fixed;
   z-index: 1;
-  box-shadow: 0px 2px 2px #888888;
+  box-shadow: 0px 2px 2px #95a5a6;
 }
 
 #menu ul {
@@ -25,7 +25,6 @@ body {
 }
 
 #menu li {
-  display: inline;
   margin: 0;
   padding: 0;
 }
@@ -98,8 +97,8 @@ a{
 
 .post{
   background-color: #ffffff;
-  padding: 2px 5px 50px 10px;
-  box-shadow: 3px 3px #888888;
+  padding: 2px 5px 50px 25px;
+  box-shadow: 3px 3px #95a5a6;
   margin: 20px 0px 0px 0px;
 }
 .pinned{
@@ -108,19 +107,45 @@ a{
 
 @media only screen and (max-width: 768px) {
     .main-wrapper{
-      margin: 0px 5% 0px 5%;
+      margin: 0px 0px 0px 0px;
       width: 100%;
     }
     #header {
-      width: 100%;
-      height: 0px;
-      background: -webkit-linear-gradient(top, #bdc3c7, #ffffff);
-      background: -moz-linear-gradient(top, #bdc3c7, #ffffff);
-      padding: 10px 0px 50px 10px;
-      position: fixed;
-      z-index: 1;
-      box-shadow: 0px 2px 2px #888888;
+      padding: 10px 0px 120px 10px;
+      background: #2c3e50;
   }
+  .block{
+    height: 130px;
+  }
+  #button {
+    width:100%;
+    position:relative;
+    min-height:100%;
+    float:left;
+  }
+  h1{
+    color: #2c3e50;
+    margin-left: 25px;
+  }
+
+  .currentlink {
+    color: #ecf0f1;
+  }
+
+  .headerlink:hover {
+    color: #ecf0f1;
+  }
+  .currentlink:hover {
+    color: #ecf0f1;
+  }
+  body {
+    background-color: #bdc3c7;
+
+  }
+  .post{
+    box-shadow: 0px 0px;
+  }
+
 
 }
 
