@@ -105,7 +105,7 @@ a{
 
 @media only screen and (max-width: 768px) {
     .main-wrapper{
-      margin: 0px 10px 0px 10px;
+      margin: 0px 5% 0px 5%;
       width: 100%;
     }
     #header {
@@ -120,36 +120,5 @@ a{
   }
 
 }
-
-
-@media screen and (min-device-width : 1080px) and (max-device-width : 1920px) and (min-resolution: 401dpi) and (device-aspect-ratio:16/9){
-    .main-wrapper{
-      margin: 0px 10px 0px 10px;
-      width: 100%;
-    }
-    #header {
-      width: 100%;
-      height: 0px;
-      background: -webkit-linear-gradient(top, #bdc3c7, #ffffff);
-      background: -moz-linear-gradient(top, #bdc3c7, #ffffff);
-      padding: 10px 0px 150px 10px;
-      position: fixed;
-      z-index: 1;
-      box-shadow: 0px 2px 2px #888888;
-  }
-  .block{
-    height: 160px;
-    width: 100%;
-  }
-  .headerlink {
-    font-size: 48px;
-    color: #7f8c8d;
-  }
-
-  .currentlink {
-    font-size: 48px;
-    color: #2c3e50;
-
-  }
 
 }
