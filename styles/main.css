@@ -105,17 +105,7 @@ a{
   float: right;
 }
 
-
-@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px) and (orientation : landscape){
-  #header {
-  padding: 10px 0px 50px 40px;
-}
-  .headerlink {
-    font-size: 18px;
-  }
-  .currentlink {
-    font-size: 18px;
-  }
+@media only screen and (max-width: 768px) and (orientation : landscape){
   body {
   margin: 0;
   padding: 0;
@@ -124,16 +114,13 @@ a{
   font-family: helvetica;
 
 }
-.main-wrapper{
-    margin: 0px 20% 20px 20%;
-}
 
 #header {
   width: 100%;
   height: 0px;
   background: -webkit-linear-gradient(top, #bdc3c7, #ffffff);
   background: -moz-linear-gradient(top, #bdc3c7, #ffffff);
-  padding: 10px 0px 50px 80px;
+  padding: 10px 0px 30px 80px;
   position: fixed;
   z-index: 1;
   box-shadow: 0px 2px 2px #95a5a6;
@@ -149,12 +136,12 @@ a{
 }
 
 .headerlink {
-  font-size: 18px;
+  font-size: 14px;
   color: #7f8c8d;
 }
 
 .currentlink {
-  font-size: 18px;
+  font-size: 14px;
   color: #2c3e50;
 }
 
@@ -171,14 +158,18 @@ a{
 }
 
 .block{
-  height: 60px;
+  height: 40px;
   width: 100%;
 }
-  .post{
-  box-shadow: 3px 3px #95a5a6;
+
+h1{
+  color: #95a5a6;
+}
+.main-wrapper{
+    margin: 0px 20% 20px 20%;
 }
 }
-@media only screen and (max-width: 768px) and (orientation : portrait){}
+@media only screen and (max-width: 768px) and (orientation : portrait){
     .main-wrapper{
       margin: 0px 0px 0px 0px;
       width: 100%;
