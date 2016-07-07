@@ -152,7 +152,7 @@ a{
 
 
 }
-@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px) and (orientation : portrait){
     .main-wrapper{
       margin: 0px 0px 0px 0px;
       width: 100%;
@@ -199,7 +199,7 @@ a{
 }
 
 }
-@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px) and (orientation : landscape){
   #header {
   padding: 10px 0px 50px 40px;
 }
