@@ -1,19 +1,3 @@
-/test/
-.column{
-    font-size: 1rem;
-    text-transform: uppercase;
-    line-height: 30px;
-    font-weight: 600;
-    letter-spacing: .1rem;
-}
-.columns{
-    font-size: 1rem;
-    text-transform: uppercase;
-    line-height: 30px;
-    font-weight: 600;
-    letter-spacing: .1rem;
-
-}
 .head{
     max-width: 427px;
     height: 100vh;
@@ -37,7 +21,7 @@
 .main{
     min-height: 100vh;
     height: 100%;
-    padding: 0 0 0 4%;
+    padding: 0 0 0 4vw;
 }
 .main img{
     margin: 10vh 0 0 0;
@@ -45,7 +29,7 @@
 }
 .avatar{
     text-align: center;
-    padding: 10vh 0 0 0;
+    margin: 10vh 0 0 0;
 }
 .avatar img{
     border-radius: 50%;
@@ -64,4 +48,58 @@
 .nav a{
     font-color: #bdc3c7;
     text-decoration: none;
+}
+@media (max-width: 750px) {
+    .head{
+    max-width: 750px;
+    height: 20vh;
+    position: fixed;
+    overflow: hidden;
+}
+.headfilter{
+    max-width: 750px;
+    height: 20vh;
+    position: fixed;
+    opacity: 0.3;
+    background-color: #000;
+    z-index: 2;
+}
+.headwidgets{
+    max-width: 750px;
+    height: 20vh;
+    position: fixed;
+    z-index: 3;
+}
+.main{
+    min-height: 10vh;
+    height: 100%;
+    padding: 20vh 0 0 4vw;
+}
+.main img{
+    margin: 0 0 0 0;
+    width: 100vw;
+    max-height: 0vh;
+}
+.avatar{
+    text-align: left;
+    margin: 5vh 0 0 10vw;
+    float: left;
+}
+.nav{
+    padding: 3vh 0 0 0;
+    text-align: center;
+}
+.responseheadimg{
+    min-width: 750px;
+}
+.avatar img{
+    border-radius: 50%;
+    max-height: 90px;
+    max-width: 90px;
+}
+body{
+    background-image: url('../images/reflection.jpg');
+    background-size: cover;
+}
+  
 }
