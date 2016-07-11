@@ -23,7 +23,7 @@ h4{
     font-size:1.2em;
     font-weight: 700;
 }
-/*navbar*/
+/*navbar index*/
 .column,
 .columns {
     margin-left: 0; 
@@ -42,7 +42,7 @@ h4{
     height: 100vh;
     position: absolute;
     opacity: 0.1;
-    background-color: #000;
+    color: #000;
     z-index: 2;
 }
 .headwidgets{
@@ -74,9 +74,31 @@ h4{
     text-transform: uppercase;
     font-size: 0.8em;
 }
+/*navbar blog posts*/
+.blogavatar{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background-color: #32333d;
+    padding: 2vh 0 2vh 20vw;
+    -webkit-flex-wrap: wrap;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+
+}
+.blogavatar img{
+    border-radius: 50%;
+}
+.block{
+    width: 100vw;
+    height: 160px;
+}
 /*navbar end*/
 
 /*index formating*/
+.container{
+    margin: 5vh 0 0 0;
+}
 .main{
     min-height: 100vh;
     height: 100%;
@@ -87,19 +109,17 @@ h4{
     width: 20vw;
 }
 /*index formating end*/
-.post{
-    padding: 5vh 0 0 7vw;
-}
 a{
     text-decoration: none;
 }
+/*responsive*/
 @media (max-width: 1000px) {
-    h2{
-        font-size: 1.2em;
-    }
+h2{
+    font-size: 1.2em;
+}
 }
 @media (max-width: 550px) {
-    .head{
+.head{
     max-width: 550px;
     height: 20vh;
     position: fixed;
@@ -151,6 +171,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: none;
+    opacity: 0.7;
 }
 .post{
     background-color: #fff;
@@ -160,6 +181,10 @@ h2{
 }
 .responsivemobile{
     height: 20vh;
+}
+.container{
+    width: 100vw;
+    margin: 0 0 0 0;
 }
   
 }
