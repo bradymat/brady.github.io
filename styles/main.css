@@ -71,9 +71,9 @@
     z-index: 3;
 }
 .main{
-    min-height: 10vh;
+    min-height: 5vh;
     height: 100%;
-    padding: 0 0 2vh 4vw;
+    padding: 0 0 1vh 4vw;
 }
 .main img{
     margin: 0 0 0 0;
@@ -82,7 +82,7 @@
 }
 .avatar{
     text-align: left;
-    margin: 5vh 0 0 10vw;
+    margin: 3vh 0 0 10vw;
     float: left;
 }
 .nav{
