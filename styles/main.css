@@ -1,31 +1,48 @@
+body {
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    
+}
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+}
+h1{
+    color: #bdc3c7;
+    font-size: 2.0em;
+    font-weight: 700;
+}
+h2{
+    color: #bdc3c7;
+    font-size: 2.0em;
+}
+/*navbar*/
+.column,
+.columns {
+    margin-left: 0; 
+}
+.header{
+    width: 25vw;
+}
 .head{
-    max-width: 427px;
+    max-width: 400px;
     height: 100vh;
     position: absolute fixed;
     overflow: hidden;
 }
 .headfilter{
-    max-width: 427px;
+    max-width: 400px;
     height: 100vh;
     position: absolute;
-    opacity: 0.3;
+    opacity: 0.1;
     background-color: #000;
     z-index: 2;
 }
 .headwidgets{
-    max-width: 427px;
+    max-width: 400px;
     height: 100vh;
     position: absolute;
     z-index: 3;
-}
-.main{
-    min-height: 100vh;
-    height: 100%;
-    padding: 0 0 0 4vw;
-}
-.main img{
-    margin: 10vh 0 0 0;
-    width: 20vw;
 }
 .avatar{
     text-align: center;
@@ -46,18 +63,43 @@
     display: inline-block;
 }
 .nav a{
-    font-color: #bdc3c7;
+    color: #bdc3c7;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+/*navbar end*/
+
+/*index formating*/
+.main{
+    min-height: 100vh;
+    height: 100%;
+    padding: 0 0 0 7vw;
+}
+.main img{
+    margin: 10vh 0 0 0;
+    width: 20vw;
+}
+/*index formating end*/
+.post{
+    padding: 5vh 0 0 7vw;
+}
+a{
     text-decoration: none;
 }
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
+    h2{
+        font-size: 1.2em;
+    }
+}
+@media (max-width: 550px) {
     .head{
-    max-width: 750px;
+    max-width: 550px;
     height: 20vh;
     position: fixed;
     overflow: hidden;
 }
 .headfilter{
-    max-width: 750px;
+    max-width: 550px;
     height: 20vh;
     position: fixed;
     opacity: 0.3;
@@ -65,7 +107,7 @@
     z-index: 2;
 }
 .headwidgets{
-    max-width: 750px;
+    max-width: 550px;
     height: 20vh;
     position: fixed;
     z-index: 3;
@@ -90,7 +132,7 @@
     text-align: center;
 }
 .responseheadimg{
-    min-width: 750px;
+    min-width: 550px;
 }
 .avatar img{
     border-radius: 50%;
@@ -102,6 +144,9 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: none;
+}
+h2{
+    color: #32333d;
 }
 .responsivemobile{
     height: 20vh;
