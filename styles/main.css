@@ -110,6 +110,8 @@ a{
 .main img{
     margin: 10vh 0 0 0;
     width: 20vw;
+    max-width: 150%;
+    max-height: 150%;
 }
 /*index formating end*/
 .post{
