@@ -37,7 +37,7 @@ a{
 .head{
     max-width: 400px;
     height: 100vh;
-    position: absolute fixed;
+    position: relative fixed;
     overflow: hidden;
 }
 .headfilter{
@@ -99,11 +99,11 @@ a{
 /*navbar end*/
 
 /*index formating*/
-.container{
-    padding: 5vh 0 0 0;
+.indexwrapper{
+    overflow: auto;
 }
 .main{
-    min-height: 100vh;
+    min-height: 50vh;
     height: 100%;
     padding: 0 0 0 7vw;
 }
@@ -113,6 +113,8 @@ a{
 }
 /*index formating end*/
 .post{
+    height: 100vh;
+    overflow: auto;
     padding: 10vh 0 0 10vw;
     background-color: #fff;
 }
@@ -182,11 +184,6 @@ h2{
 }
 .responsivemobile{
     height: 20vh;
-}
-.container{
-    width: 100vw;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
 }
 .post{
     padding: 2vh 2vw 0 2vw;
