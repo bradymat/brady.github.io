@@ -100,8 +100,13 @@ a{
 
 /*index formating*/
 .indexwrapper{
+    padding: 5vh 0 0 0;
     overflow: auto;
     max-height: 100vh;
+    -webkit-flex-wrap: wrap;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+
 }
 .main{
     min-height: 15vh;
@@ -109,7 +114,6 @@ a{
     padding: 0 0 0 4vw;
 }
 .main img{
-    margin: 10vh 0 0 0;
     width: 20vw;
     max-width: 150%;
     max-height: 150%;
@@ -117,11 +121,24 @@ a{
 /*index formating end*/
 .post{
     height: 100vh;
-    overflow: auto;
     padding: 10vh 0 0 10vw;
     background-color: #fff;
 }
 
+/*footer*/
+.footer {
+    position: absolute;
+    width: 78vw;
+    right: 0;
+    bottom: 0;
+    padding: 1vh 0 1vh 0;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+.footer a{
+    color: #2c3e50;
+    margin: 0 1vw 0 0;
+}
 /*responsive*/
 @media (max-width: 1200px) {
 h2{
@@ -186,6 +203,16 @@ h2{
     overflow: hidden;
     padding: 2vh 2vw 0 2vw;
     background-color: #fff;
+}
+.footer {
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1vh 0 1vh 0;
+    background-color: #ecf0f1;
+    text-align: center;
 }
   
 }
