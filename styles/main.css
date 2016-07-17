@@ -122,9 +122,7 @@ a{
 .post{
     margin-left: 3vw;
     overflow: auto;
-    height: 100vh;
     padding: 15vh 10vw 0 5vw;
-    background-color: #fff;
 }
 
 /*footer*/
@@ -171,12 +169,22 @@ h2{
 .main{
     min-height: 5vh;
     height: 100%;
-    padding: 0 0 1vh 4vw;
+    padding: 0 0 0 0;
 }
 .main img{
     margin: 0 0 0 0;
     width: 100vw;
     max-height: 0vh;
+}
+.indexwrapper{
+    padding: 5vh 0 0 0;
+    overflow: none;
+    max-height: 100vh;
+    -webkit-flex-wrap: wrap;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    text-align: center;
+
 }
 .avatar{
     text-align: left;
@@ -202,8 +210,9 @@ h2{
     height: 20vh;
 }
 .post{
+    margin-left: 0;
     overflow: hidden;
-    padding: 2vh 2vw 0 2vw;
+    padding: 2vh 2vw 0 5vw;
     background-color: #fff;
 }
 .footer {
